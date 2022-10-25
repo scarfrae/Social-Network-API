@@ -1,7 +1,7 @@
 //think this is slightly wrong
 const { Schema, model } = require('mongoose');
 const reactionSchema = require('./Reaction');
-const formatTime = require('../utils/formatTime')
+const formatTime = require('../utils/formatTime');
 
 // Schema to create Student model
 const thoughtSchema = new Schema(
@@ -16,7 +16,7 @@ const thoughtSchema = new Schema(
       type: Date,
       default: Date.now,
       //need to work on formatTime function in utils
-      // get: formatTime
+      get: formatTime,
     },
     username: {
       type: String,

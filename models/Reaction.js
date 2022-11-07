@@ -21,7 +21,7 @@ const reactionSchema = new Schema(
       type: Date,
       default: Date.now,
       //need to work on formatTime function in utils
-      get: formatTime,
+      // get: formatTime,
     },
   },
   {

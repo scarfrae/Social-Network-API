@@ -16,10 +16,8 @@ const userSchema = new Schema(
       required: true,
       unique: true,
       //got from https://mongoosejs.com/docs/validation.html
-      validate: {
-        validator: () => Promise.resolve(false),
-        message: 'Email validation failed'
-      },
+      match: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
+
       maxlength: 50,
     },
     thoughts: [

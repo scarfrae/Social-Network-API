@@ -1,6 +1,3 @@
-https://watch.screencastify.com/v/pAktvWQ6itVc7JqYAh01
-
-
 # *** SOCIAL-NETWORK-API ***
 
 ## **Description** 📚

@@ -36,16 +36,19 @@ To test application via routes:
 
 ### **Usage** 💻
 * NOTE: 200 is success message and 404 is error message 
-* Users can get catagory or product or tag by id 
-![Screenshot of Get one ](./images/GetOne.png)
-* Users can get all of catagory or product or tag
-![Screenshot of Get all ](./images/GetAll.png)
-* Users can update catagory or product or tag
-![Screenshot of update(put) one](./images/UpdateOne.png)
-* Users can create catagory or product or tag
-![Screenshot of create(post) one](./images/CreateOne.png)
-* Users can delete catagory or product or tag 
-![Screenshot of delete one](./images/DeleteOne.png)
+* NOTE: There are just examples of the different insomnia testing of routes to view all routes visit walkthrough below.
+* Can get Users or Thoughts
+![Screenshot of Find Users ](./Assets/Find.png)
+* Can get one User or one Thought
+![Screenshot of Find One User ](./Assets/FindOne.png)
+* Can update one User or Thought
+![Screenshot of Update One User](./Assets/Update.png)
+* Can create User, Thought, Reaction
+![Screenshot of Create One User](./Assets/Create.png)
+* Can delete User 
+![Screenshot of Delete One User](./Assets/Delete.png)
+* Can add Friend 
+![Screenshot of Add Friend](./Assets/AddFriend.png)
 
 To view video walkthrough visit:
 https://watch.screencastify.com/v/pAktvWQ6itVc7JqYAh01

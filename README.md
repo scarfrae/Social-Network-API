@@ -77,6 +77,8 @@ All testing was done by the developing team.
 * Express
 * Dotenv
 * Screencastify
+* Mongoose
+* Mongodb
 
 <hr>
 
